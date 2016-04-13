@@ -38,6 +38,8 @@ function init(){
 	second.textContent = randomNum2.toString();
 	operation.textContent = randomSign;
 	answer.textContent = '?';
+	answer.style.color = "white";
+
 	document.getElementById('win-phrase').textContent = " ";
 	document.getElementById('lose-phrase').textContent = " ";
 
@@ -99,6 +101,8 @@ function submitClicked() {
 	else {
 		wrongAnswers++;
 		document.getElementById('lose-phrase').textContent = "Wrong Answer!";
+		document.getElementById('answer').textContent = answer;
+		document.getElementById('answer').style.color = "red";
 		setTimeout(init, 3000);
 	}
 }
