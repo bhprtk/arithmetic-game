@@ -3,8 +3,67 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Arithmetic Game</title>
+	
+	<!-- style.css -->
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	
 	<h1>Arithmetic Game</h1>
+	
+	<div>
+		<div id='equation'>
+			<div id='firstNumber' class='question'></div>
+			<div id='operation' class='question'></div>
+			<div id='secondNumber' class='question'></div>
+			<div class='question'>=</div>
+			<div id='answer' class='question'>?</div>
+		</div>
+	</div>
+	
+	<p id='win-phrase'> </p>
+	<p id='lose-phrase'> </p>
+
+	<!-- Buttons -->
+
+	<div class='style-buttons' id='buttons'>
+		<div>
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+		</div>
+		
+		<div>
+			<button>4</button>
+			<button>5</button>
+			<button>6</button>
+		</div>
+
+		<div>
+			<button>7</button>
+			<button>8</button>
+			<button>9</button>
+		</div>
+
+		<div id='bottom-buttons'>
+			<button>+/-</button>
+			<button>0</button>
+		</div>
+	</div>
+
+	<div class='extra-buttons'>
+		<button id='submit'>submit</button>
+		<button id='clear'>clear</button>
+		<button id='skip'>skip</button>
+	</div>
+		
+	<div id='score-board'> 
+		<p>Right Answers: <span id='right-answer'> </span></p>
+		<p>Wrong Answers: <span id='wrong-answer'> </span></p>
+		<p>Skipped Answers: <span id='skipped-answer'> </span></p>
+	</div>
+<!-- main.js -->
+<script src="main.js"></script>
+
 </body>
 </html>

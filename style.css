@@ -1,0 +1,75 @@
+body {
+	background-image: url('http://www.localwom.com/i/school-chalkboard-1080p-wallpapers.jpg');
+	background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+	color: #b2b2b2;
+}
+
+/* Equation */
+
+#equation {
+	text-align: center;
+	font-size: 64px;
+	margin: 20px;
+}
+.question{
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+/* /Equation */
+
+.style-buttons{
+	text-align: center;
+	margin-top: 30px;
+}
+.style-buttons button {
+	height: 70px;
+	width: 70px;
+	font-size: 32px;
+	margin-bottom: 5px;
+	border: 1px solid white;
+}
+#bottom-buttons button {
+	width: 107px;
+}
+.extra-buttons {
+	text-align: center;
+}
+.extra-buttons button {
+	margin-top: 20px;
+	height: 40px;
+	width: 100px;
+	font-size: 24px;
+}
+#win-phrase {
+	text-align: center;
+	color: green;
+}
+#lose-phrase {
+	text-align: center;
+	color: red;
+}
+#score-board {
+	margin-left: 20px;
+	color: white;
+}
+#right-answer {
+	color: green;
+}
+#wrong-answer {
+	color: red;
+}
+#skipped-answer {
+	color: orange;
+}
+
+
+
+
+
+
+
